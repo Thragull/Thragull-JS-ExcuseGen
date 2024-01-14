@@ -10,7 +10,7 @@
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
-    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <link rel="shortcut icon" href="/src/assets/img/favicon.ico" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -32,15 +32,33 @@
       <h1 class="title text-center text-warning">Thragull Excuse Generator</h1>
     </div>
     <div
-      class="frame border border-success bg-success-subtle col-6 container mt-5 py-5"
+      class="frame border rounded-5 border-success bg-success-subtle col-6 container mt-5 py-5"
     >
-      <img src="assets/img/Devil.png" />
-      <h2 class="text-center">
-        So you need to create an excuse eh? Muahahaha, lets see what can we do.
+      <img
+        class="devil border border-2 border-danger bg-danger-subtle rounded rounded-circle mx-auto d-block"
+        src="/src/assets/img/Devil.png"
+      />
+      <h2 class="devilText text-center">
+        "So you need to create an excuse eh? Muahahaha, lets see what can we
+        do."
       </h2>
-      <p class="text-center" id="idExcuse">
-        My dog ate my homework
+      <p class="info text-center">
+        Refresh the website or press the button below to get your excuse:
       </p>
+      <div
+        class="border-3 rounded-5 alert alert-primary text-center"
+        role="alert"
+        id="idExcuse"
+      >
+        My dog ate my homework
+      </div>
+      <button
+        type="button"
+        class="boton btn btn-danger rounded-5 col-3 mx-auto d-block"
+        onclick="window.onload()"
+      >
+        Press Me!
+      </button>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

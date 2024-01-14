@@ -11,3 +11,37 @@ body {
   font-size: 5vw;
   font-family: Pixelify Sans;
 }
+.devil {
+  height: 15vw;
+}
+.devilText {
+  font-size: 2vw;
+}
+.info {
+  color: rgb(224, 141, 46);
+  font-size: 1.5vw;
+}
+#idExcuse {
+  font-size: 1.8vw;
+}
+.boton {
+  border: 2px solid;
+  border-color: rgb(192, 127, 6);
+  background-color: orange;
+  color: rgb(67, 5, 148);
+  font-weight: bolder;
+}
+.boton:hover {
+  border: 2px solid;
+  border-color: rgb(255, 174, 24);
+  background-color: rgb(252, 200, 104);
+  color: rgb(67, 5, 148);
+  font-weight: bolder;
+}
+.boton:focus {
+  border: 2px solid;
+  border-color: rgb(192, 127, 06);
+  background-color: orange;
+  color: rgb(67, 5, 148);
+  font-weight: bolder;
+}
